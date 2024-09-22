@@ -27,6 +27,8 @@ Settings.init({
 //users
 class AdUsers extends Model { }
 AdUsers.init({
+    db_recordType: DataTypes.STRING,
+    db_lastupdate: DataTypes.DATE,
     objectguid: { type: DataTypes.STRING, primaryKey: true, unique: true },
     samaccountname: DataTypes.STRING,
     whenCreated: DataTypes.DATE,
