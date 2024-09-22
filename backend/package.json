@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@josephuspaye/powershell": "^0.2.0",
+    "@sequelize/mariadb": "^7.0.0-alpha.42",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "name": "adtidy",
+  "version": "1.0.0",
+  "description": "Active Directory Tidy backend",
+  "main": "app.js",
+  "author": "R.Hambalek",
+  "license": "ISC"
+}
